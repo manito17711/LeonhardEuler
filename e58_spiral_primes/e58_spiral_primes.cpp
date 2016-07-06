@@ -16,7 +16,6 @@
 // first falls below 10 % ?
 
 #include <iostream>
-#include <math.h>
 
 #define TARGET_PERCENTAGE 10
 #define CUBE_SIZES 4 
