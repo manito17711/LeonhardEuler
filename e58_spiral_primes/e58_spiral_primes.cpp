@@ -21,7 +21,7 @@
 #define TARGET_PERCENTAGE 10
 #define CUBE_SIZES 4 
 
-int is_prime(int);
+bool is_prime(int);
 void print_statistics(int, double, double, double);
 
 int main()
@@ -36,7 +36,10 @@ int main()
 			num = (cube_size * cube_size) - ((cube_size - 1) * i);
 			counter_diagonals++;
 
-			if (is_prime(num)) counter_primes++;
+			if (is_prime(num))
+			{
+				counter_primes++;
+			}
 		}
 
 		percentage = (counter_primes / counter_diagonals) * 100;
@@ -54,21 +57,21 @@ int main()
 	return 0;
 }
 
-int is_prime(int num)
+bool is_prime(int num)
 {
 	if (num < 2)
 	{
-		return 0;
+		return false;
 	}
 
 	if (num == 3 || num == 2)
 	{
-		return 1;
+		return true;
 	}
 
 	if (num % 2 == 0 || num % 3 == 0)
 	{
-		return 0;
+		return false;
 	}
 
 	int i;
@@ -76,11 +79,11 @@ int is_prime(int num)
 	{
 		if (num % i == 0 || num % (i + 2) == 0)
 		{
-			return 0;
+			return false;
 		}
 	}
 
-	return 1;
+	return true;
 }
 
 void print_statistics(int cube_size, double counter_primes, double counter_diagonals, double percentage)
