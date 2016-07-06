@@ -13,6 +13,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "e08_largest_product_In_a_se
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "e09_special_pythagorean_triplet", "e09_special_pythagorean_triplet\e09_special_pythagorean_triplet.vcxproj", "{F468229F-D990-49C2-83A9-12F33D7EA103}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "e21_amicable_numbers", "e21_amicable_numbers\e21_amicable_numbers.vcxproj", "{C5FFF133-A433-4192-B91C-CF8826C12643}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "e58_spiral_primes", "e58_spiral_primes\e58_spiral_primes.vcxproj", "{E28C93AE-ACCC-42BA-893C-96A321D2BC93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -55,6 +59,22 @@ Global
 		{F468229F-D990-49C2-83A9-12F33D7EA103}.Release|x64.Build.0 = Release|x64
 		{F468229F-D990-49C2-83A9-12F33D7EA103}.Release|x86.ActiveCfg = Release|Win32
 		{F468229F-D990-49C2-83A9-12F33D7EA103}.Release|x86.Build.0 = Release|Win32
+		{C5FFF133-A433-4192-B91C-CF8826C12643}.Debug|x64.ActiveCfg = Debug|x64
+		{C5FFF133-A433-4192-B91C-CF8826C12643}.Debug|x64.Build.0 = Debug|x64
+		{C5FFF133-A433-4192-B91C-CF8826C12643}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5FFF133-A433-4192-B91C-CF8826C12643}.Debug|x86.Build.0 = Debug|Win32
+		{C5FFF133-A433-4192-B91C-CF8826C12643}.Release|x64.ActiveCfg = Release|x64
+		{C5FFF133-A433-4192-B91C-CF8826C12643}.Release|x64.Build.0 = Release|x64
+		{C5FFF133-A433-4192-B91C-CF8826C12643}.Release|x86.ActiveCfg = Release|Win32
+		{C5FFF133-A433-4192-B91C-CF8826C12643}.Release|x86.Build.0 = Release|Win32
+		{E28C93AE-ACCC-42BA-893C-96A321D2BC93}.Debug|x64.ActiveCfg = Debug|x64
+		{E28C93AE-ACCC-42BA-893C-96A321D2BC93}.Debug|x64.Build.0 = Debug|x64
+		{E28C93AE-ACCC-42BA-893C-96A321D2BC93}.Debug|x86.ActiveCfg = Debug|Win32
+		{E28C93AE-ACCC-42BA-893C-96A321D2BC93}.Debug|x86.Build.0 = Debug|Win32
+		{E28C93AE-ACCC-42BA-893C-96A321D2BC93}.Release|x64.ActiveCfg = Release|x64
+		{E28C93AE-ACCC-42BA-893C-96A321D2BC93}.Release|x64.Build.0 = Release|x64
+		{E28C93AE-ACCC-42BA-893C-96A321D2BC93}.Release|x86.ActiveCfg = Release|Win32
+		{E28C93AE-ACCC-42BA-893C-96A321D2BC93}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
