@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "e50_consecutive_prime_sum",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "e53_combinatoric_selections", "e53_combinatoric_selections\e53_combinatoric_selections.vcxproj", "{9A653817-4F85-4AB3-B6BA-7E2E3ED4E395}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "e47_distinct_primes_factors", "e47_distinct_primes_factors\e47_distinct_primes_factors.vcxproj", "{0EF12B79-9BFE-43D4-922C-6FF6790B1AB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -115,6 +117,14 @@ Global
 		{9A653817-4F85-4AB3-B6BA-7E2E3ED4E395}.Release|x64.Build.0 = Release|x64
 		{9A653817-4F85-4AB3-B6BA-7E2E3ED4E395}.Release|x86.ActiveCfg = Release|Win32
 		{9A653817-4F85-4AB3-B6BA-7E2E3ED4E395}.Release|x86.Build.0 = Release|Win32
+		{0EF12B79-9BFE-43D4-922C-6FF6790B1AB0}.Debug|x64.ActiveCfg = Debug|x64
+		{0EF12B79-9BFE-43D4-922C-6FF6790B1AB0}.Debug|x64.Build.0 = Debug|x64
+		{0EF12B79-9BFE-43D4-922C-6FF6790B1AB0}.Debug|x86.ActiveCfg = Debug|Win32
+		{0EF12B79-9BFE-43D4-922C-6FF6790B1AB0}.Debug|x86.Build.0 = Debug|Win32
+		{0EF12B79-9BFE-43D4-922C-6FF6790B1AB0}.Release|x64.ActiveCfg = Release|x64
+		{0EF12B79-9BFE-43D4-922C-6FF6790B1AB0}.Release|x64.Build.0 = Release|x64
+		{0EF12B79-9BFE-43D4-922C-6FF6790B1AB0}.Release|x86.ActiveCfg = Release|Win32
+		{0EF12B79-9BFE-43D4-922C-6FF6790B1AB0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
