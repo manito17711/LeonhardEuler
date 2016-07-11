@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "e35_circular_primes", "e35_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "e56_powerful_digit_sum", "e56_powerful_digit_sum\e56_powerful_digit_sum.vcxproj", "{7744B76B-42AF-4C4B-8360-31540BC4B0C5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "e55_lychrel_numbers", "e55_lychrel_numbers\e55_lychrel_numbers.vcxproj", "{D6509BD5-CEB3-4578-A4D7-CB75086D82B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -155,6 +157,14 @@ Global
 		{7744B76B-42AF-4C4B-8360-31540BC4B0C5}.Release|x64.Build.0 = Release|x64
 		{7744B76B-42AF-4C4B-8360-31540BC4B0C5}.Release|x86.ActiveCfg = Release|Win32
 		{7744B76B-42AF-4C4B-8360-31540BC4B0C5}.Release|x86.Build.0 = Release|Win32
+		{D6509BD5-CEB3-4578-A4D7-CB75086D82B0}.Debug|x64.ActiveCfg = Debug|x64
+		{D6509BD5-CEB3-4578-A4D7-CB75086D82B0}.Debug|x64.Build.0 = Debug|x64
+		{D6509BD5-CEB3-4578-A4D7-CB75086D82B0}.Debug|x86.ActiveCfg = Debug|Win32
+		{D6509BD5-CEB3-4578-A4D7-CB75086D82B0}.Debug|x86.Build.0 = Debug|Win32
+		{D6509BD5-CEB3-4578-A4D7-CB75086D82B0}.Release|x64.ActiveCfg = Release|x64
+		{D6509BD5-CEB3-4578-A4D7-CB75086D82B0}.Release|x64.Build.0 = Release|x64
+		{D6509BD5-CEB3-4578-A4D7-CB75086D82B0}.Release|x86.ActiveCfg = Release|Win32
+		{D6509BD5-CEB3-4578-A4D7-CB75086D82B0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
