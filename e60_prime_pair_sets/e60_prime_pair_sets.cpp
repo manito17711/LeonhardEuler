@@ -123,18 +123,28 @@ void print_result(vector<int> indexes)
 	cout << "\nSum: " << sum << endl;
 }
 
-bool is_prime(int num) {
-	if (num == 3 || num == 2) {
+bool is_prime(int num)
+{
+	if (num < 2)
+	{
+		return false;
+	}
+
+	if (num == 2 || num == 3)
+	{
 		return true;
 	}
 
-	if (num % 2 == 0 || num % 3 == 0) {
+	if (num % 2 == 0 || num % 3 == 0)
+	{
 		return false;
 	}
 
 	int i = 0;
-	for (i = 5; i * i <= num; i += 6) {
-		if (num % i == 0 || num % (i + 2) == 0) {
+	for (i = 5; i * i <= num; i += 6)
+	{
+		if (num % i == 0 || num % (i + 2) == 0)
+		{
 			return false;
 		}
 	}
