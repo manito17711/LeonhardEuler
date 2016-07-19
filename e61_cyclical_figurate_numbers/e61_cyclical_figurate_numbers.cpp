@@ -19,7 +19,6 @@
 	 triangle, square, pentagonal, hexagonal, heptagonal, and octagonal, is represented by a different number in the set.
 */
 
-#include "stdafx.h"
 #include <iostream>
 #include <vector>
 

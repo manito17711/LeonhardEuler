@@ -2,7 +2,6 @@
 // In fact, 41063625 is the smallest cube which has exactly three permutations of its digits which are also cube.
 // Find the smallest cube for which exactly five permutations of its digits are cube.
 
-#include "stdafx.h"
 #include <iostream>
 #include <stdint.h>
 #include <vector>
@@ -56,8 +55,13 @@ int main()
 bool find_permutations(std::vector<uint64_t> cubes, int l)
 {
 	int c, k;
-	int *arr_1 = (int *) malloc(l * sizeof(int));
-	int *arr_2 = (int *) malloc(l * sizeof(int));
+
+	int * arr_1 = new int[l];
+	int * arr_2 = new int[l];
+
+	//int *arr_1 = (int *) malloc(l * sizeof(int));
+	//int *arr_2 = (int *) malloc(l * sizeof(int));
+
 	uint64_t t;
 
 	for (size_t i = 0; i < cubes.size() - 1; i++)
@@ -86,8 +90,8 @@ bool find_permutations(std::vector<uint64_t> cubes, int l)
 		}
 	}
 
-	delete arr_1;
-	delete arr_2;
+	delete[] arr_1;
+	delete[] arr_2;
 
 	return false;
 }

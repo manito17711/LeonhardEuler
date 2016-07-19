@@ -4,7 +4,6 @@
 //
 // Find the lowest sum for a set of five primes for which any two primes concatenate to produce another prime.
 
-#include "stdafx.h"
 #include <iostream>
 #include <vector>
 #include <string>
