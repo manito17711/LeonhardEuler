@@ -32,7 +32,7 @@
 */
 
 
-#include <gmp.h>
+//#include <gmp.h>
 #include <iostream>
 #include <stdlib.h>
 #include <math.h>

@@ -83,6 +83,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "e63_powerful_digit_counts",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "e66_diophantine_equation", "e66_diophantine_equation\e66_diophantine_equation.vcxproj", "{2650AF37-3FC6-47C8-A115-6C082D5599F8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "e81_path_sum_two_ways", "e81_path_sum_two_ways\e81_path_sum_two_ways.vcxproj", "{B0F8B8DC-6F34-42F5-8D34-4D3C01A22E9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -408,6 +410,14 @@ Global
 		{2650AF37-3FC6-47C8-A115-6C082D5599F8}.Release|x64.Build.0 = Release|x64
 		{2650AF37-3FC6-47C8-A115-6C082D5599F8}.Release|x86.ActiveCfg = Release|Win32
 		{2650AF37-3FC6-47C8-A115-6C082D5599F8}.Release|x86.Build.0 = Release|Win32
+		{B0F8B8DC-6F34-42F5-8D34-4D3C01A22E9C}.Debug|x64.ActiveCfg = Debug|x64
+		{B0F8B8DC-6F34-42F5-8D34-4D3C01A22E9C}.Debug|x64.Build.0 = Debug|x64
+		{B0F8B8DC-6F34-42F5-8D34-4D3C01A22E9C}.Debug|x86.ActiveCfg = Debug|Win32
+		{B0F8B8DC-6F34-42F5-8D34-4D3C01A22E9C}.Debug|x86.Build.0 = Debug|Win32
+		{B0F8B8DC-6F34-42F5-8D34-4D3C01A22E9C}.Release|x64.ActiveCfg = Release|x64
+		{B0F8B8DC-6F34-42F5-8D34-4D3C01A22E9C}.Release|x64.Build.0 = Release|x64
+		{B0F8B8DC-6F34-42F5-8D34-4D3C01A22E9C}.Release|x86.ActiveCfg = Release|Win32
+		{B0F8B8DC-6F34-42F5-8D34-4D3C01A22E9C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
