@@ -89,6 +89,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "e82_path_sum_three_ways", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "e97_large_non_mersenne_prime", "e97_large_non_mersenne_prime\e97_large_non_mersenne_prime.vcxproj", "{3D70EF70-D522-4325-878D-A7F2A99253C0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "e92_square_digit_chains", "e92_square_digit_chains\e92_square_digit_chains.vcxproj", "{7A113CAA-B845-4CBA-9965-077B6F8A4B5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -438,6 +440,14 @@ Global
 		{3D70EF70-D522-4325-878D-A7F2A99253C0}.Release|x64.Build.0 = Release|x64
 		{3D70EF70-D522-4325-878D-A7F2A99253C0}.Release|x86.ActiveCfg = Release|Win32
 		{3D70EF70-D522-4325-878D-A7F2A99253C0}.Release|x86.Build.0 = Release|Win32
+		{7A113CAA-B845-4CBA-9965-077B6F8A4B5E}.Debug|x64.ActiveCfg = Debug|x64
+		{7A113CAA-B845-4CBA-9965-077B6F8A4B5E}.Debug|x64.Build.0 = Debug|x64
+		{7A113CAA-B845-4CBA-9965-077B6F8A4B5E}.Debug|x86.ActiveCfg = Debug|Win32
+		{7A113CAA-B845-4CBA-9965-077B6F8A4B5E}.Debug|x86.Build.0 = Debug|Win32
+		{7A113CAA-B845-4CBA-9965-077B6F8A4B5E}.Release|x64.ActiveCfg = Release|x64
+		{7A113CAA-B845-4CBA-9965-077B6F8A4B5E}.Release|x64.Build.0 = Release|x64
+		{7A113CAA-B845-4CBA-9965-077B6F8A4B5E}.Release|x86.ActiveCfg = Release|Win32
+		{7A113CAA-B845-4CBA-9965-077B6F8A4B5E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
