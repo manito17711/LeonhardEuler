@@ -58,6 +58,10 @@ int main()
 			{
 				// OK.. error for exit from recursion...
 			}
+			else
+			{
+				throw e;
+			}
 		}
 	}
 
