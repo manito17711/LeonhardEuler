@@ -21,7 +21,7 @@
 
 	-------------------------------------------------------------------------------------------------------------
 
-	The algorithm works!
+	The algorithm is correct!
 
 	Brute force approach with multi threading - spawn threads equal to the processor cores! It will force your CPU to 100%.
 
@@ -32,7 +32,7 @@
 */
 
 
-//#include <gmp.h>
+#include <gmp.h>
 #include <iostream>
 #include <stdlib.h>
 #include <math.h>
