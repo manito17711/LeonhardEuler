@@ -26,9 +26,7 @@
 	Brute force approach with multi threading - spawn threads equal to the processor cores! It will force your CPU to 100%.
 
 !!!	Because task require's operation with big numbers, the "GMP" lib is used. Build and Run under Code::Blocks !!!
-	
-	Unfortunately it cannot produce result, due to conventional computer does not have enough power to compute... it stuck with MAX_D >= 200 and i5-6200
-	There must be some kind of mathematical relationship between x and y with increasing of D value..
+!!! Dont work... needs oprimization. O(n^n...) or something like that.. !!!
 */
 
 
