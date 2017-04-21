@@ -97,6 +97,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "e98_anagramic_squares", "e9
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "e96_sudoku", "e96_sudoku\e96_sudoku.vcxproj", "{C2B49ED3-9EFD-4BDC-B67A-DAA559EA14A5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "e44_pentagon_numbers", "e44_pentagon_numbers\e44_pentagon_numbers.vcxproj", "{D7CBF9CE-D53F-4091-9A19-103E55F04743}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -478,6 +480,14 @@ Global
 		{C2B49ED3-9EFD-4BDC-B67A-DAA559EA14A5}.Release|x64.Build.0 = Release|x64
 		{C2B49ED3-9EFD-4BDC-B67A-DAA559EA14A5}.Release|x86.ActiveCfg = Release|Win32
 		{C2B49ED3-9EFD-4BDC-B67A-DAA559EA14A5}.Release|x86.Build.0 = Release|Win32
+		{D7CBF9CE-D53F-4091-9A19-103E55F04743}.Debug|x64.ActiveCfg = Debug|x64
+		{D7CBF9CE-D53F-4091-9A19-103E55F04743}.Debug|x64.Build.0 = Debug|x64
+		{D7CBF9CE-D53F-4091-9A19-103E55F04743}.Debug|x86.ActiveCfg = Debug|Win32
+		{D7CBF9CE-D53F-4091-9A19-103E55F04743}.Debug|x86.Build.0 = Debug|Win32
+		{D7CBF9CE-D53F-4091-9A19-103E55F04743}.Release|x64.ActiveCfg = Release|x64
+		{D7CBF9CE-D53F-4091-9A19-103E55F04743}.Release|x64.Build.0 = Release|x64
+		{D7CBF9CE-D53F-4091-9A19-103E55F04743}.Release|x86.ActiveCfg = Release|Win32
+		{D7CBF9CE-D53F-4091-9A19-103E55F04743}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
