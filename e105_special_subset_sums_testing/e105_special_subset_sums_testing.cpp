@@ -25,6 +25,7 @@
 #include <algorithm>
 #include <future>
 #include <numeric>
+#include <cstdlib>
 
 #include "next_combination.hpp"
 
@@ -67,7 +68,7 @@ int main()
 
 int sum_valid_subset(const deque<int>& d)
 {
-	size_t len_idx_A = 1;
+	std::size_t len_idx_A = 1;
 
 	vector<int> idx_A(d.size()), idx_B;
 	iota(idx_A.begin(), idx_A.end(), 0);
@@ -82,7 +83,7 @@ int sum_valid_subset(const deque<int>& d)
 			idx_B.clear();
 			copy(idx_A.begin() + len_idx_A, idx_A.end(), back_inserter(idx_B));
 
-			for (size_t i = 1; i <= idx_B.size(); ++i)
+			for (std::size_t i = 1; i <= idx_B.size(); ++i)
 			{
 				do
 				{
